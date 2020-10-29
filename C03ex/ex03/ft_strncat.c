@@ -6,14 +6,14 @@
 /*   By: youngjle <youngjle@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/29 23:15:27 by youngjle          #+#    #+#             */
-/*   Updated: 2020/10/29 23:21:41 by youngjle         ###   ########.fr       */
+/*   Updated: 2020/10/30 00:16:11 by youngjle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strncat(char *dest, char *src, unsigned int nb)
+char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
-	int i;
-	int j;
+	int				i;
+	unsigned int	j;
 
 	i = 0;
 	j = 0;
@@ -29,6 +29,4 @@ char *ft_strncat(char *dest, char *src, unsigned int nb)
 	}
 	dest[i] = '\0';
 	return (dest);
-
-
 }

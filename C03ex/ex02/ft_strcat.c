@@ -6,11 +6,11 @@
 /*   By: youngjle <youngjle@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/29 22:09:36 by youngjle          #+#    #+#             */
-/*   Updated: 2020/10/29 22:22:43 by youngjle         ###   ########.fr       */
+/*   Updated: 2020/10/30 00:10:30 by youngjle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
-char *ft_strcat(char *dest, char *src)
+
+char	*ft_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
