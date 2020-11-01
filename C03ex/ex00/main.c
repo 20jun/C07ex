@@ -6,7 +6,7 @@
 /*   By: youngjle <youngjle@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/29 17:40:11 by youngjle          #+#    #+#             */
-/*   Updated: 2020/10/29 20:17:59 by youngjle         ###   ########.fr       */
+/*   Updated: 2020/11/01 01:53:37 by youngjle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ int		ft_strcmp(char *s1, char *s2);
 
 int		main(void)
 {
-	char s1[] = "abdd";
-	char s2[] = "abdd";
+	char s1[] = "abddaaaaaa";
+	char s2[] = "abddaaaaaaaa";
 
 	printf("s1 : %s, s2 : %s\n", s1, s2);
 	ft_strcmp(s1, s2);

@@ -6,7 +6,7 @@
 /*   By: youngjle <youngjle@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/29 22:56:15 by youngjle          #+#    #+#             */
-/*   Updated: 2020/10/29 23:22:10 by youngjle         ###   ########.fr       */
+/*   Updated: 2020/11/01 02:10:00 by youngjle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int		main(void)
 	char src[] = "efgh";
 	unsigned int nb;
 
-	nb = 50;
+	nb = 1;
 	printf("dest[] : %s, src[] : %s, nb : %d\n", dest, src, nb);
 	printf("result : %s\n", ft_strncat(dest, src, nb));
 }

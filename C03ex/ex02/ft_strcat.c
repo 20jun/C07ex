@@ -6,7 +6,7 @@
 /*   By: youngjle <youngjle@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/29 22:09:36 by youngjle          #+#    #+#             */
-/*   Updated: 2020/10/30 00:10:30 by youngjle         ###   ########.fr       */
+/*   Updated: 2020/11/01 02:09:27 by youngjle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ char	*ft_strcat(char *dest, char *src)
 	{
 		i++;
 	}
-	printf("%d\n", i);
 	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
