@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_prime.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: youngjle </var/mail/youngjle>              +#+  +:+       +#+        */
+/*   By: youngjle <youngjle@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/03 00:25:31 by youngjle          #+#    #+#             */
-/*   Updated: 2020/11/03 00:57:29 by youngjle         ###   ########.fr       */
+/*   Created: 2020/11/03 11:28:08 by youngjle          #+#    #+#             */
+/*   Updated: 2020/11/03 18:17:45 by youngjle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,4 @@ int		ft_is_prime(int nb)
 			return (1);
 	}
 	return (0);
-
-
-
 }

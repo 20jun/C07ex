@@ -6,7 +6,7 @@
 /*   By: youngjle </var/mail/youngjle>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/03 00:23:29 by youngjle          #+#    #+#             */
-/*   Updated: 2020/11/03 00:57:37 by youngjle         ###   ########.fr       */
+/*   Updated: 2020/11/03 18:24:12 by youngjle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,11 @@ int		main(void)
 {
 	int nb;
 
-	nb = 2;
+	nb = 2147482646;
 
-	while (nb < 131231)
-	{
+	//while (nb < 2147483646)
+	//{
 	printf("nb : %d, result : %d\n", nb, ft_is_prime(nb));
-	nb++;
-	}
+	//nb++;
+	//}
 }

@@ -6,7 +6,7 @@
 /*   By: youngjle </var/mail/youngjle>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/03 00:58:25 by youngjle          #+#    #+#             */
-/*   Updated: 2020/11/03 00:59:52 by youngjle         ###   ########.fr       */
+/*   Updated: 2020/11/03 18:19:17 by youngjle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,6 @@ int		main(void)
 {
 	int nb;
 
-	nb = 5;
+	nb = 2147483640;
 	printf("result : %d\n", ft_find_next_prime(nb));
 }

@@ -6,7 +6,7 @@
 /*   By: youngjle <youngjle@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/02 23:33:32 by youngjle          #+#    #+#             */
-/*   Updated: 2020/11/03 00:22:09 by youngjle         ###   ########.fr       */
+/*   Updated: 2020/11/03 18:17:22 by youngjle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,6 @@ int		main(void)
 {
 	int nb;
 
-	nb = 49;
+	nb = 2147483647;
 	printf("result : %d\n", ft_sqrt(nb));
 }
